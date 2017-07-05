@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<watchface device_name="Gear S2, Gear S3" height="360" name="watchface.xml" schema_version="1.2" screen_type="1" version="1.4.0" width="360">
+    <root height="360" type="normal" width="360" x="0" y="0">
+        <background height="360" id="Background clock" name="ch_bg_b_02.png" width="360" x="0" y="0"/>
+        <background height="75" id="Background second" name="ch_bg_b_05.png" width="75" x="100" y="200"/>
+        <index end_angle="360.0" height="360" id="Index clock" name="ind_360_03.png" number="1" pivot_x="180" pivot_y="180" start_angle="0.0" width="360" x="0" y="0"/>
+        <index end_angle="360.0" fixed_ratio="true" height="75" id="Index second" name="ind_360_04.png" number="1" pivot_x="138" pivot_y="238" start_angle="0.0" width="75" x="100" y="200"/>
+        <text alignment="16777216" b="255" bitmap_font="false" custom_font="false" fixed_ratio="true" font_name="Tizen" g="255" height="40" id="Step count" postfix=" steps" r="255" size="16" source="pedometer.step" style="0" text="Text" width="63" x="149" y="82"/>
+        <group fixed_ratio="true" group_folder_open="false" group_original_height="92" group_original_width="92" group_original_x="134" group_original_y="134" height="75" id="Batery level" width="75" x="184" y="200">
+            <image height="75" id="Image 1" name="__COMPLICATION__0.17556917256121796/battery_bg.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="100" start="0"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 2" name="__COMPLICATION__0.17556917256121796/battery_01.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="10" start="5"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 3" name="__COMPLICATION__0.17556917256121796/battery_02.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="15" start="10"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 4" name="__COMPLICATION__0.17556917256121796/battery_03.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="20" start="15"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 5" name="__COMPLICATION__0.17556917256121796/battery_04.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="25" start="20"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 6" name="__COMPLICATION__0.17556917256121796/battery_05.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="30" start="25"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 7" name="__COMPLICATION__0.17556917256121796/battery_06.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="35" start="30"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 8" name="__COMPLICATION__0.17556917256121796/battery_07.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="40" start="35"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 9" name="__COMPLICATION__0.17556917256121796/battery_08.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="45" start="40"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 10" name="__COMPLICATION__0.17556917256121796/battery_09.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="50" start="45"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 11" name="__COMPLICATION__0.17556917256121796/battery_10.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="55" start="50"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 12" name="__COMPLICATION__0.17556917256121796/battery_11.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="60" start="55"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 13" name="__COMPLICATION__0.17556917256121796/battery_12.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="65" start="60"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 14" name="__COMPLICATION__0.17556917256121796/battery_13.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="70" start="65"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 15" name="__COMPLICATION__0.17556917256121796/battery_14.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="75" start="70"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 16" name="__COMPLICATION__0.17556917256121796/battery_15.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="80" start="75"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 17" name="__COMPLICATION__0.17556917256121796/battery_16.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="85" start="80"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 18" name="__COMPLICATION__0.17556917256121796/battery_17.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="90" start="85"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 19" name="__COMPLICATION__0.17556917256121796/battery_18.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="95" start="90"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 20" name="__COMPLICATION__0.17556917256121796/battery_19.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="99" start="95"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 21" name="__COMPLICATION__0.17556917256121796/battery_20.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="100" start="99"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 22" name="__COMPLICATION__0.17556917256121796/battery_warn.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="15" start="0"/>
+                </condition>
+            </image>
+            <image height="75" id="Image 23" name="__COMPLICATION__0.17556917256121796/battery_nor.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <condition source="battery">
+                    <section end="100" start="15"/>
+                </condition>
+            </image>
+            <text alignment="16777216" b="140" bitmap_font="false" custom_font="true" font_name="BreezeSans-MediumCondensed" g="140" height="16" id="Text 1" original_height="20" original_width="80" original_x="6" original_y="46" postfix=" %" r="140" size="16" source="battery.percent" style="0" text="Text" width="65" x="4" y="37"/>
+            <image action_type="open-app" height="75" id="Image 24" name="__COMPLICATION__0.17556917256121796/battery_gauge_action.png" original_height="92" original_width="92" original_x="0" original_y="0" width="75" x="0" y="0">
+                <open-app preset="battery"/>
+            </image>
+        </group>
+        <hand end_angle="360.0" end_value="60.0" fixed_ratio="true" height="75" id="Hand seconds" name="preset_3_02.png" pivot_x="4" pivot_y="38" real="false" source="second" start_angle="0.0" start_value="0.0" width="8" x="134" y="200"/>
+        <hand end_angle="720.0" end_value="24.0" height="360" id="Hand hours" name="preset_01.png" pivot_x="20" pivot_y="180" real="true" source="hour0-23.minute" start_angle="0.0" start_value="0.0" width="40" x="160" y="0"/>
+        <hand end_angle="360.0" end_value="60.0" height="324" id="Hand minutes" name="basic_clock_hands_2.png" pivot_x="17" pivot_y="162" real="true" source="minute.second" start_angle="0.0" start_value="0.0" width="34" x="163" y="18"/>
+    </root>
+</watchface>
